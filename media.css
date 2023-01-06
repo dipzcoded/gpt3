@@ -1,0 +1,194 @@
+@media only screen and (max-width:1040px){
+  html{
+    scroll-behavior: smooth;
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width:1183px){
+  .list{
+      position: fixed;
+      z-index: 1000;
+      top: 100px;
+      right: -100%;
+      flex-direction: column;
+      padding: 5rem 2.5rem;
+      line-height: 2;
+      width: 55%;
+      height: 760px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background: var(--main-color) !important;
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* background-clip: text; */
+  /* border-inline-color: transparent; */
+      border-radius:2rem;
+      backdrop-filter: blur(7px);
+      box-shadow: 0 5px 30px rgba(100, 101, 102,0.6);
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      -webkit-border-radius:2rem;
+      -moz-border-radius:2rem;
+      -ms-border-radius:2rem;
+      -o-border-radius:2rem;
+}
+
+.values{
+  color: var(--light-color);
+}
+
+  .list > div > button{
+  margin-right: 0;
+  margin-right: 1rem;
+}
+.items:last-child{
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+
+.list.show{
+  right: 0;
+}
+  
+  .open-menu{
+    display: block;
+    color: var(--light-color);
+    background-color: var(--background-color);
+  cursor: pointer;
+  }
+  header > .open-menu.notShowMenu{
+    display: none;
+  }
+  .close-menu{
+    color: var(--light-color);
+    background-color: var(--background-color);
+  cursor: pointer;
+  }
+  header > .close-menu.notShowMenu{
+    display: none;
+  }
+
+  .join{
+    width: 100%;
+  }
+
+  .icon-flex{
+    gap:2.4rem;
+  }
+  .icon-flex > img{
+    width: 60%;
+  }
+
+
+  #what > div:first-child{
+    width: 80%;
+    height: 75rem;
+  }
+}
+
+@media only screen and (max-width:1035px){
+
+  .list{
+    width: 70%;
+  }
+  .blog{
+    width: 80%;
+  }
+  .rescol{
+    flex-direction: column;
+  }
+  #what > div:first-child{
+    height: 136rem;
+  }
+  .footer-text > h3{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:590px){
+  .list{
+    width: 100%;
+  }
+  .icon-flex{
+    flex-direction: column;
+  }
+  .icon-flex > img{
+    width: 40%;
+  }
+  #what > div:first-child{
+    width: 100%;
+    height: 100%;
+  }
+  .rescol > h2{
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+}
+/* @media only screen and (max-width: 740px) {
+  .list{
+    position: fixed;
+  z-index: 1000;
+  top: 100px;
+  right: -100%;
+  flex-direction: column;
+  padding: 5rem 2.5rem;
+  line-height: 2;
+     width: 65%;
+      height: 550px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2rem;
+      background-color: var(--dddf);
+      background: transparent;
+      backdrop-filter: blur(7px);
+      box-shadow: 0 5px 30px rgba(100, 101, 102,0.6);
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+  }
+
+  .list > div > button{
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+.items:last-child{
+  margin-left: 0;
+  margin-bottom: 1rem;
+}
+
+.list.show{
+  right: 0;
+}
+  
+  .open-menu{
+    display: block;
+    background: var(--main-color) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-inline-color: transparent;
+  cursor: pointer;
+  }
+  header > .open-menu.notShowMenu{
+    display: none;
+  }
+  .close-menu{
+    background: var(--main-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border-inline-color: transparent;
+  }
+  header > .close-menu.notShowMenu{
+    display: none;
+  }
+} */
